@@ -10,7 +10,7 @@ import org.springframework.security.crypto.factory.PasswordEncoderFactories;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 
-@Configuration
+/*@Configuration
 public class LoginSecurity extends WebSecurityConfigurerAdapter {
     @Bean
     @Override
@@ -28,4 +28,4 @@ public class LoginSecurity extends WebSecurityConfigurerAdapter {
 
         return new InMemoryUserDetailsManager(user1,user2);
     }
-}
+}*/

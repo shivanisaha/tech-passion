@@ -7,7 +7,6 @@ import javax.servlet.*;
 import java.io.IOException;
 
 @Component
-@Order(1)
 public class CustomFilter2 implements Filter {
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
